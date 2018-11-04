@@ -30,6 +30,6 @@ Source Of Data: Json files located in src/main/resources
 Environment Details: Property Files located at src/main/resources
 Triggering the tests:
   1. Using eclipse: Trigger the testNG files: FacebookTestNG.xml and WalletHubTestNG.xml
-  2. Command Line: Use the command "mvn clean install -Dtestng.xml= FacebookTestNG.xml" OR "mvn clean install -Dtestng.xml= WalletHubTestNG.xml"
+  2. Command Line: Use the command "mvn clean install -Dtestng.xml=FacebookTestNG.xml" OR "mvn clean install -Dtestng.xml=WalletHubTestNG.xml"
 
 
