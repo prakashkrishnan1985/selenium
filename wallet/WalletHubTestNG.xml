@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WalletHub test suites" verbose="2" parallel="classes"
+	thread-count="3">
+	<parameter name="environment" value="walletHub.properties" />
+	<parameter name="browserType" value="chrome" />
+	<test name ="Wallet Hub Test suites">
+		<classes>
+			<class name="com.activity.wallet.WalletHub" />
+		</classes>
+	</test>
+</suite>
