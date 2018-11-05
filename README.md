@@ -23,12 +23,12 @@ Create a light user account in https://wallethub.com/join/light while unchecking
 
 Miscelleneous Information:
 
-Build tool: Maven
-Framework: TestNG
-Patterns used: Page Factory
-Source Of Data: Json files located in src/main/resources
-Environment Details: Property Files located at src/main/resources
-Triggering the tests:
+1.Build tool: Maven
+2. Framework: TestNG
+3. Patterns used: Page Factory
+4. Source Of Data: Json files located in src/main/resources
+5. Environment Details: Property Files located at src/main/resources
+6. Triggering the tests:
   1. Using eclipse: Trigger the testNG files: FacebookTestNG.xml and WalletHubTestNG.xml
   2. Command Line: Use the command "mvn clean install -Dtestng.xml=FacebookTestNG.xml" OR "mvn clean install -Dtestng.xml=WalletHubTestNG.xml"
 
